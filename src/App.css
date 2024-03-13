@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.bandeau{
+  color: gold;
+  float:left;
+  text-align:left;
+  margin-left: 8%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text_bandeau{
+  color:gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+}
+.player{
+  color:gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 130%;
+  float:right;
+  text-align:right;
+  width: 40%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.MuiMenu-paper{background-color: #d5001c !important;}
+.rhap_progress-filled,.rhap_progress-indicator {background-color: gold !important;}.rhap_button-clear.rhap_volume-button {color: gold !important;}.rhap_volume-bar{background-color: gold !important;}.rhap_volume-indicator {background-color: #252525 !important;}.rhap_container {box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4) !important;}.rhap_progress-bar {background-color: gold !important;}.rhap_progress-bar-show-download {background-color: goldenrod !important;}.rhap_download-progress {background-color: goldenrod !important;}.rhap_play-pause-button,.rhap_time {color: gold !important;}
