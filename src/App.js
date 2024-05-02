@@ -25,7 +25,8 @@ class Test extends React.Component{
         Partenaris:"Partenaris",
         Contacts:"Contacts",
         106.1:"en Lauragués-Arièja",
-        93.6:"en Roèrgue"
+        93.6:"en Roèrgue",
+        top_body:"En tot esperant, nos podètz seguir sus las rets socialas"
       }};
     this.render();
   }
@@ -41,7 +42,8 @@ class Test extends React.Component{
         Partenaris:"Partenaris",
         Contacts:"Contacts",
         106.1:"en Lauragués-Arièja",
-        93.6:"en Roèrgue"
+        93.6:"en Roèrgue",
+        top_body:"En tot esperant, nos podètz seguir sus las rets socialas"
       }})
   }
 
@@ -130,15 +132,34 @@ class Test extends React.Component{
       </Button>
     </div>
     <br></br>
-    
-    <div>
+    <div className="top_body_border">
+      <div className="top_body">
+      <p>
+        <br></br>
+        {this.state.langue.top_body}
+        <br></br>
+        <br></br>
+      </p>
+      </div>
     </div>
+
     <div>
+    <div style={{textAlign:"left",width: "50%",height: "3100px"}}>
+      <div className="bandeau_laterl">
+        <p>
+        </p>
+      </div>
+    <div style={{textAlign:"right"}}>
 			<div data-href="https://www.facebook.com/radiooccitania" data-tabs="timeline" data-height="100%" data-width="500px" data-small-header="true" data-hide-cover="false" data-show-facepile="true" data-hide-cta="false" style={{minHeight: "1px", height: "3100px"}} >
         <iframe name="intégration facedebook" height="100%" title="page Facebook" allowtransparency="true" allowfullscreen="true" allow="encrypted-media" style={{border: "medium", visibility: "visible", width: "500px", height: "100%"}} src="https://www.facebook.com/v2.10/plugins/page.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfef335f179e560655%26domain%3Dradio-occitania.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fradio-occitania.com%252Ffa0b1bd93d2021731%26relation%3Dparent.parent&amp;container_width=540&amp;height=4200&amp;hide_cover=false&amp;hide_cta=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fradiooccitania&amp;locale=fr_FR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=500px">
       </iframe>
       </div>
-    </div>      
+    </div>
+    </div>
+
+    
+    </div>
+
     </>;
   }
 }
